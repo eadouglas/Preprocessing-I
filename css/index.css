@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -133,4 +133,47 @@ table {
 html,
 body {
   height: 100%;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 25px 50px 0 50px;
+  background-color: white;
+}
+.container nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.container nav a {
+  margin-left: 5%;
+  text-decoration: none;
+  color: grey;
+}
+.head {
+  margin-top: 40px;
+  background-color: #851010;
+  height: 375px;
+}
+.head-img {
+  height: 179px;
+  width: 220px;
+  margin: 20px;
+}
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+.middle {
+  display: flex;
+  height: 370px;
+}
+footer,
+p {
+  text-align: center;
+  color: white
+  padding: 5px;
+  max-width: 800px;
 }
